@@ -37,13 +37,42 @@ h2 {
     display: flex;
 }
 
-
 .hero-logo img {
-    box-shadow: 10px 8px 19px #00243F;
+    max-width: 100%;
+    flex: 1 1 auto;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .banner {
+        flex-direction: column;
+    }
+    .hero-text h1,
+    .hero-text h2 {
+        text-align: center;
+    }
+    .hero-logo {
+        padding-right: 0;
+    }
+    .hero-text {
+        padding-left: 0;
+    }
+    .hero-logo {
+        margin: 0 150px;
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 885px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 18px;
+    }
 }
