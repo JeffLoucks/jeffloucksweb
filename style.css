@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 100px;
+    color: #FFFFFF;
+    text-shadow: 10px 8px 19px #00243F;
+    margin: auto;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-shadow: 10px 8px 19px #00243F;
+    margin: auto;
+}
+
+.banner {
+    background-image: url('./resources/images/background\ placeholder.svg');
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo {
+    padding-right: 50px;
+    display: flex;
+}
+
+
+.hero-logo img {
+    box-shadow: 10px 8px 19px #00243F;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
